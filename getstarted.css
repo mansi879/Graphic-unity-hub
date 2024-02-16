@@ -1,0 +1,71 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/GEHU_Haldwani_Campus.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+header{
+    text-align: right;
+    position: fixed;
+    top: 11.917px;
+    left: 1204px;
+    bottom: 408.917px;
+    width: 290.283px;
+    height: 60.967px;
+    right: 28.92px;
+    border-right-width: 0px;
+    border-right-style: solid;
+    font-size: 12px;
+    line-height: 0.7;
+    letter-spacing: -0.068em;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-left: -9px;
+    margin-right: 311px;
+}
+li a {
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+   font-size: x-large;
+   color: black;
+   text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition:  1s;
+}
+
+li:hover{
+    background-color: #16171761;
+}
+div.cultural img{
+    width: 1537px;
+    height: 355.75px;
+    padding-top: 112px;
+}
+div.eco img{
+    width: 1537px;
+    height: 355.75px;
+}
+p{
+    padding-top: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
